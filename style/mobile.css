@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    body {
+        margin: 0%;
+    }
+
+    .vertical-movie_01,
+    .vertical-movie_02,
+    .vertical-movie_03,
+    .vertical-movie_04,
+    .vertical-movie_05,
+    .vertical-movie_06,
+    .vertical-movie_07,
+    .vertical-movie_08,
+    .vertical-movie_09,
+    .vertical-movie_10 {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        width: 100%;
+        height: 80%;
+    }
+
+    .cookies{
+        position: fixed; 
+        bottom: 0; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        width: 70%; text-align: center; 
+        background: rgb(226, 1, 1); 
+        color: rgb(255, 255, 255); 
+        padding: 5px;
+    }
+
+    .welcome{
+        background-color: rgb(226, 1, 1);
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        margin: 0cm;
+    }
+}

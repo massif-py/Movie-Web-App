@@ -1,0 +1,60 @@
+@media (min-width: 769px) {
+    body {
+        margin: 0%;
+        margin-top: 10%;
+    }
+
+    .vertical-movie_01,
+    .vertical-movie_02,
+    .vertical-movie_03,
+    .vertical-movie_04,
+    .vertical-movie_05,
+    .vertical-movie_06,
+    .vertical-movie_07,
+    .vertical-movie_08,
+    .vertical-movie_09,
+    .vertical-movie_10 {
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        width: 10%;
+        height: 33%;
+    }
+
+    .cookies{
+        position: fixed; 
+        bottom: 0; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        width: 15%; text-align: center; 
+        background: rgb(226, 1, 1); 
+        color: rgb(255, 255, 255); 
+        padding: 5px;
+    }
+
+    .welcome{
+        background-color: rgb(226, 1, 1);
+        color: rgb(255, 255, 255);
+        font-size: 80px;
+        text-align: center;
+        margin: 0cm;
+    }
+
+    #container {
+        display:flex;
+    }
+
+    .vertical-button_01,
+    .vertical-button_02,
+    .vertical-button_03,
+    .vertical-button_04,
+    .vertical-button_05,
+    .vertical-button_06,
+    .vertical-button_07,
+    .vertical-button_08,
+    .vertical-button_09,
+    .vertical-button_10 {
+        width: 10%;
+        text-align: center;
+    }
+
+}
