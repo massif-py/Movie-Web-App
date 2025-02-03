@@ -4,9 +4,9 @@ body {
 }
 
 .welcome{
-    background-color: rgb(5, 18, 255);
-    color: white;
-    font-size: 100px;
+    background-color: rgb(226, 1, 1);
+    color: rgb(255, 255, 255);
+    font-size: 80px;
     text-align: center;
     margin: 0cm;
 }
